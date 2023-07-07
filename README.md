@@ -33,8 +33,8 @@ In RViz, you just need to select "2D Nav Goal" to tell the robot where they shou
 ![Demo](https://github.com/mananispiwpiw/turtlebot-autonomus-persepsi/blob/main/ezgif.com-video-to-gif.gif)
 
 
-##Line Detection (Only Calibration)
-###Camera Imaging Calibration
+## Line Detection (Only Calibration)
+### Camera Imaging Calibration
 In this step, we want to check the camera to see if it is properly connected to Turtlebot or not. 
 On a remote PC, we can launch a command like this: 
 ```
@@ -51,7 +51,7 @@ $ rqt_image_view
 
 ![Camera From Turtlebot]()
 
-###Camera Extrinsic Calibration
+### Camera Extrinsic Calibration
 Next is extrinsic camera calibration, before we calibrate it. I want to show you the camera view or result before the calibration.
 
 ![Before Calibration]()
