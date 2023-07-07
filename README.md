@@ -29,4 +29,4 @@ $ roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
 ```
 ### Run the navigation
 In RViz, you just need to select "2D Nav Goal" to tell the robot where they should go. If the mapping is correct, they will move perfectly and avoid all obstacles.
-![](https://github.com/mananispiwpiw/turtlebot-autonomus-persepsi/blob/main/ezgif.com-video-to-gif.gif)
+![Demo](https://github.com/mananispiwpiw/turtlebot-autonomus-persepsi/blob/main/ezgif.com-video-to-gif.gif)
