@@ -28,10 +28,10 @@ In order to create a map, you need to do teleop first. In the beginning, the tur
 $ roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
 ```
 This is the map before the calibration with Teleop.
-![before_map]()
+![before_map](https://github.com/mananispiwpiw/turtlebot-autonomus-persepsi/blob/main/map_before.jpeg)
 
 And this is the result after the calibration.
-![after_map]()
+![after_map](https://github.com/mananispiwpiw/turtlebot-autonomus-persepsi/blob/main/map_after.jpeg)
 
 ### Run the navigation
 In RViz, you just need to select "2D Nav Goal" to tell the robot where they should go. If the mapping is correct, they will move perfectly and avoid all obstacles.
@@ -60,7 +60,7 @@ $ rqt_image_view
 ### Camera Extrinsic Calibration
 Next is extrinsic camera calibration, before we calibrate it. I want to show you the camera view or result before the calibration.
 
-![Before Calibration]()
+![Before Calibration](https://github.com/mananispiwpiw/turtlebot-autonomus-persepsi/blob/main/extrinsic_before.jpeg)
 
 To calibrate, just run this command on the Remote PC :
 ```
@@ -70,8 +70,8 @@ $ rosrun rqt_reconfigure rqt_reconfigure
 And adjust the calibration like this :
 **NOTE** You cannot follow or change the parameters exactly the same as mine. Because there are so many factors that cause the calibration parameter to be different. So make sure to calibrate manually.
 
-![parameter1]()
-![parameter2]()
+![parameter1](https://github.com/mananispiwpiw/turtlebot-autonomus-persepsi/blob/main/parameter1.jpeg)
+![parameter2](https://github.com/mananispiwpiw/turtlebot-autonomus-persepsi/blob/main/parameter2.jpeg)
 
-![Calibration Result]()
+![Calibration Result](https://github.com/mananispiwpiw/turtlebot-autonomus-persepsi/blob/main/extrinsic_after.jpeg)
 
