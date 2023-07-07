@@ -55,7 +55,7 @@ And last, open a new terminal on the remote PC and run this command:
 $ rqt_image_view
 ```
 
-![Camera From Turtlebot]()
+![Camera From Turtlebot](https://github.com/mananispiwpiw/turtlebot-autonomus-persepsi/blob/main/camera_result.jpeg)
 
 ### Camera Extrinsic Calibration
 Next is extrinsic camera calibration, before we calibrate it. I want to show you the camera view or result before the calibration.
