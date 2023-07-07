@@ -27,6 +27,12 @@ In order to create a map, you need to do teleop first. In the beginning, the tur
 ```
 $ roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
 ```
+This is the map before the calibration with Teleop.
+![before_map]()
+
+And this is the result after the calibration.
+![after_map]()
+
 ### Run the navigation
 In RViz, you just need to select "2D Nav Goal" to tell the robot where they should go. If the mapping is correct, they will move perfectly and avoid all obstacles.
 
@@ -56,5 +62,16 @@ Next is extrinsic camera calibration, before we calibrate it. I want to show you
 
 ![Before Calibration]()
 
+To calibrate, just run this command on the Remote PC :
+```
+$ rosrun rqt_reconfigure rqt_reconfigure
+```
 
+And adjust the calibration like this :
+**NOTE** You cannot follow or change the parameters exactly the same as mine. Because there are so many factors that cause the calibration parameter to be different. So make sure to calibrate manually.
+
+![parameter1]()
+![parameter2]()
+
+![Calibration Result]()
 
